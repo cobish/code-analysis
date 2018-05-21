@@ -20,31 +20,8 @@
   </div>
 
   <script type="text/javascript" src="https://vuejs.org/js/vue.js"></script>
+  <script type="text/javascript" src="./store.js"></script>
   
-  <script type="text/javascript">
-    class Store {
-      constructor (Vue, options) {
-        var bus = new Vue({
-          data: {
-            state: options.state
-          }
-        })
-
-        this.install(Vue, bus)
-      }
-      
-      install (Vue, bus) {
-        Vue.mixin({
-          beforeCreate () {
-            if (this.$options.store) {
-              Vue.prototype.$store = bus
-            }
-          }
-        })
-      }
-    }
-  </script>
-
   <script type="text/javascript">
     const store = new Store(Vue, {
       state: {
