@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>实现一个 vuex</title>
+  <style type="text/css">
+    #app {
+      margin: 20px 10px;
+    }
+
+    #app div {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="app">
+    <child-a></child-a>
+    <child-b></child-b>
+  </div>
+
+  <script type="text/javascript" src="https://vuejs.org/js/vue.js"></script>
+  
+  <script type="text/javascript">
+    class Store {
+      constructor (Vue, options) {
+        var bus = new Vue({
+          data: {
+            state: options.state
+          }
+        })
+
+        this.install(Vue, bus)
+      }
+      
+      install (Vue, bus) {
+        Vue.mixin({
+          beforeCreate () {
+            if (this.$options.store) {
+              Vue.prototype.$store = bus
+            }
+          }
+        })
+      }
+    }
+  </script>
+
+  <script type="text/javascript">
+    const store = new Store(Vue, {
+      state: {
+        count: 0
+      }
+    })
+
+    // 子组件 a
+    const childA = {
+      template: '<button @click="handleClick">click me</button>',
+      methods: {
+        handleClick () {
+          this.$store.state.count += 1
+        }
+      }
+    }
+
+    // 子组件 b
+    const childB = {
+      template: '<div>count: {{ count }}</div>',
+      computed: {
+        count () {
+          return this.$store.state.count
+        }
+      }
+    }
+
+    new Vue({
+      el: '#app',
+      components: {
+        'child-a': childA,
+        'child-b': childB
+      },
+      store: store
+    })
+  </script>
+
+</body>
+</html>
