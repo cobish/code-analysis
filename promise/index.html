@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>实现一个 Promise</title>
+</head>
+<body>
+  <script type="text/javascript" src="./promise.js"></script>
+
+  <script type="text/javascript">
+    var p = new MyPromise(function (resolve) {
+      console.log(1);
+      setTimeout(function () {
+        resolve(2);
+      }, 1000);
+    });
+
+    p.then(function (val) {
+      console.log(val);
+      
+      return new MyPromise(function (resolve) {
+        setTimeout(function () {
+          resolve(val + 1);
+        }, 1000);  
+      });
+    }).then(function(val) {
+      console.log(val);
+    });
+
+    p.then(function (val) {
+      console.log(val + 100);
+    })
+  </script>
+</body>
+</html>
