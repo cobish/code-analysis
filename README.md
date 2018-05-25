@@ -1,6 +1,10 @@
 # code-analysis
 源码解读
 
+### Promise
+
+1. [Promise 源码：实现一个简单的 Promise](https://github.com/cobish/code-analysis/issues/10)
+
 ### vuex
 
 1. [vuex 源码：如何实现一个简单的 vuex](https://github.com/cobish/code-analysis/issues/1)
