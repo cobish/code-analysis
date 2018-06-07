@@ -1,11 +1,13 @@
 # code-analysis
 源码解读
 
-### Promise
+## Promise
 
 1. [Promise 源码：实现一个简单的 Promise](https://github.com/cobish/code-analysis/issues/10)
+2. [Promise 源码：同步执行 resolve](https://github.com/cobish/code-analysis/issues/11)
+3. [Promise 源码：异步执行 resolve](https://github.com/cobish/code-analysis/issues/12)
 
-### vuex
+## vuex
 
 1. [vuex 源码：如何实现一个简单的 vuex](https://github.com/cobish/code-analysis/issues/1)
 2. [vuex 源码：初探 vuex 之 install](https://github.com/cobish/code-analysis/issues/2)
