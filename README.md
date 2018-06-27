@@ -2,13 +2,9 @@
 
 源码解读
 
-## Promise
+## vue-router
 
-1. [Promise 源码：实现一个简单的 Promise](https://github.com/cobish/code-analysis/issues/10)
-2. [Promise 源码：同步执行 resolve](https://github.com/cobish/code-analysis/issues/11)
-3. [Promise 源码：异步执行 resolve](https://github.com/cobish/code-analysis/issues/12)
-4. [Promise 源码：then 链式调用](https://github.com/cobish/code-analysis/issues/13)
-5. [Promise 源码：静态方法](https://github.com/cobish/code-analysis/issues/14)
+1. [vue-router 源码：前端路由](https://github.com/cobish/code-analysis/issues/15)
 
 ## vuex
 
@@ -21,3 +17,11 @@
 7. [vuex 源码：深入 vuex 之 module](https://github.com/cobish/code-analysis/issues/7)
 8. [vuex 源码：深入 vuex 之 namespaced](https://github.com/cobish/code-analysis/issues/8)
 9. [vuex 源码：深入 vuex 之辅助函数 mapState](https://github.com/cobish/code-analysis/issues/9)
+
+## Promise
+
+1. [Promise 源码：实现一个简单的 Promise](https://github.com/cobish/code-analysis/issues/10)
+2. [Promise 源码：同步执行 resolve](https://github.com/cobish/code-analysis/issues/11)
+3. [Promise 源码：异步执行 resolve](https://github.com/cobish/code-analysis/issues/12)
+4. [Promise 源码：then 链式调用](https://github.com/cobish/code-analysis/issues/13)
+5. [Promise 源码：静态方法](https://github.com/cobish/code-analysis/issues/14)
