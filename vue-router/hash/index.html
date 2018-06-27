@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hash 路由</title>
+  <script type="text/javascript" src="./router.js"></script>
+</head>
+<body>
+  <div>
+    <a href="#/">home</a>
+    <a href="#/book">book</a>
+    <a href="#/movie">movie</a>
+      
+    <div id="content"></div>
+  </div>
+  
+  <script type="text/javascript">
+    const router = new Router([
+      {
+        path: '/',
+        component: 'home'
+      },
+      {
+        path: '/book',
+        component: 'book'
+      },
+      {
+        path: '/movie',
+        component: 'movie'
+      }
+    ]);
+  </script>
+</body>
+</html>
