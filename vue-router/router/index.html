@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>实现一个 vue-router</title>
+</head>
+<body>
+
+  <div id="app">
+    <p>
+      <router-link to="#/">home</router-link>
+      <router-link to="#/book">book</router-link>
+      <router-link to="#/movie">movie</router-link>
+    </p>
+    <router-view></router-view>
+  </div>
+
+  <script type="text/javascript" src="https://vuejs.org/js/vue.js"></script>
+  <script type="text/javascript" src="./vue-router.js"></script>
+
+  <script type="text/javascript">
+    const Home = { template: '<div>home</div>' };
+    const Book = { template: '<div>book</div>' };
+    const Movie = { template: '<div>movie</div>' };
+
+    const routes = [
+      { path: '/', component: Home },
+      { path: '/book', component: Book },
+      { path: '/movie', component: Movie }
+    ];
+
+    const router = new VueRouter(Vue, {
+      routes
+    });
+
+    new Vue({
+      el: '#app'
+    });
+  </script>
+
+</body>
+</html>
