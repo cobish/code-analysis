@@ -5,6 +5,7 @@
 ## vue-router
 
 1. [vue-router 源码：前端路由](https://github.com/cobish/code-analysis/issues/15)
+2. [vue-router 源码：实现一个简单的 vue-router](https://github.com/cobish/code-analysis/issues/16)
 
 ## vuex
 
