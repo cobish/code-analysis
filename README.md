@@ -7,6 +7,7 @@
 1. [vue-router 源码：前端路由](https://github.com/cobish/code-analysis/issues/15)
 2. [vue-router 源码：实现一个简单的 vue-router](https://github.com/cobish/code-analysis/issues/16)
 3. [vue-router 源码：路由的安装与初始化](https://github.com/cobish/code-analysis/issues/17)
+4. [vue-router 源码：路由模式](https://github.com/cobish/code-analysis/issues/18)
 
 ## vuex
 
