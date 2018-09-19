@@ -9,6 +9,7 @@ vue-router 源码解读进行中...
 3. [vue-router 源码：路由的安装与初始化](https://github.com/cobish/code-analysis/issues/17)
 4. [vue-router 源码：路由模式](https://github.com/cobish/code-analysis/issues/18)
 5. [vue-router 源码：导航守卫](https://github.com/cobish/code-analysis/issues/19)
+6. [vue-router 源码：路由匹配](https://github.com/cobish/code-analysis/issues/20)
 
 ## vuex
 
