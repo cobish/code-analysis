@@ -1,6 +1,8 @@
 # code-analysis
 
-vue-router 源码解读进行中...
+## vue
+
+vue 源码解读即将开始中...
 
 ## vue-router
 
@@ -10,6 +12,7 @@ vue-router 源码解读进行中...
 4. [vue-router 源码：路由模式](https://github.com/cobish/code-analysis/issues/18)
 5. [vue-router 源码：导航守卫](https://github.com/cobish/code-analysis/issues/19)
 6. [vue-router 源码：路由匹配](https://github.com/cobish/code-analysis/issues/20)
+7. [vue-router 源码：组件](https://github.com/cobish/code-analysis/issues/21)
 
 ## vuex
 
