@@ -1,9 +1,5 @@
 # code-analysis
 
-## vue
-
-vue 源码解读即将开始中...
-
 ## vue-router
 
 1. [vue-router 源码：前端路由](https://github.com/cobish/code-analysis/issues/15)
