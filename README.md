@@ -2,6 +2,8 @@
 
 ## vue-router
 
+> 基于 v2.1.0 版本
+
 1. [vue-router 源码：前端路由](https://github.com/cobish/code-analysis/issues/15)
 2. [vue-router 源码：实现一个简单的 vue-router](https://github.com/cobish/code-analysis/issues/16)
 3. [vue-router 源码：路由的安装与初始化](https://github.com/cobish/code-analysis/issues/17)
@@ -11,6 +13,8 @@
 7. [vue-router 源码：组件](https://github.com/cobish/code-analysis/issues/21)
 
 ## vuex
+
+> 基于 v2.0.0 版本
 
 1. [vuex 源码：如何实现一个简单的 vuex](https://github.com/cobish/code-analysis/issues/1)
 2. [vuex 源码：初探 vuex 之 install](https://github.com/cobish/code-analysis/issues/2)
@@ -23,6 +27,8 @@
 9. [vuex 源码：深入 vuex 之辅助函数 mapState](https://github.com/cobish/code-analysis/issues/9)
 
 ## Promise
+
+> 基于 then/promise v3.0.0 版本
 
 1. [Promise 源码：实现一个简单的 Promise](https://github.com/cobish/code-analysis/issues/10)
 2. [Promise 源码：同步执行 resolve](https://github.com/cobish/code-analysis/issues/11)
