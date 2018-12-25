@@ -5,7 +5,8 @@
 > 基于 v2.0.1 版本
 
 1. [vue 源码：整体概况](https://github.com/cobish/code-analysis/issues/22)
-2. ......
+2. [vue 源码：如何调试源码](https://github.com/cobish/code-analysis/issues/23)
+3. ......
 
 ## vue-router
 
